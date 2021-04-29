@@ -13,13 +13,14 @@ export default function Home() {
       </Head>
 
       <h1>Shop Display</h1>
-      <div>
+      <div className={styles['product-container']}>
         {products.map((product) => (
           <Image
             src={`/${product}.jpg`}
             alt={product}
             width={300}
             height={300}
+            className={styles.image}
           />
         ))}
       </div>
