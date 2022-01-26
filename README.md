@@ -11,7 +11,7 @@ A shop display with animated link transition.
 1. Clone this repository.
 
 ```
-git clone git@github.com:coffmanjrp/next-bnb.git
+git clone git@github.com:coffmanjrp/next-shop-display.git
 ```
 
 Or download the zip file.
