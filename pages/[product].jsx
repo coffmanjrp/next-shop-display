@@ -16,6 +16,7 @@ export default function Product() {
       {product && (
         <div className={styles.container}>
           <Head>
+            <meta name="robots" content="noindex, nofollow" />
             <title>{title} - Shop Display</title>
           </Head>
 
